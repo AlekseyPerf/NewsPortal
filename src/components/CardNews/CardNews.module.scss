@@ -1,0 +1,27 @@
+.card {
+  margin: 8px;
+  height: 100%;
+  width: 100%;
+  font-size: 12px;
+  font-family: 'Texturina', serif;
+}
+
+.truncate3lines {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 80%;
+  font-size: 14px;
+  font-weight: 400;
+  white-space: normal;
+}
+
+.imageContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
