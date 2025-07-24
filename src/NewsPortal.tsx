@@ -17,6 +17,7 @@ import {
 import {
   DEFAULT_SIZE_FILTER,
   DEFAULT_SIZE_NEWS,
+  MAX_SIZE_FILTER,
   MIN_SIZE_FILTER,
   MIN_SIZE_NEWS,
 } from "./constants";
@@ -48,7 +49,7 @@ const NewsPortal = () => {
         <Splitter.Panel
           collapsible
           min={MIN_SIZE_FILTER}
-          max={MIN_SIZE_FILTER}
+          max={MAX_SIZE_FILTER}
           defaultSize={DEFAULT_SIZE_FILTER}
         >
           <SplitterDesc>
